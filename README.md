@@ -18,9 +18,4 @@ HID API (http://www.signal11.us/oss/hidapi/)
 
 # Building
 
-    $ mkdir build
-    $ cd build
-    $ cmake ..
-    $ make
-    $ ./bin/sixaxispairer
-    $ ./bin/sixaxispairer xx:xx:xx:xx:xx:xx
+    $ gcc -o sixaxispairer main.c -lhidapi-libusb
